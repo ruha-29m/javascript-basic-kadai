@@ -2,7 +2,7 @@
 
 let userName= "体重,身長";
 
-    userWeight=68;
+let userWeight=68;
 
 let userHeight=1.7;
 
