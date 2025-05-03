@@ -4,5 +4,9 @@ const textElement = document.getElementById('text');
 // HTML要素がクリックされたときにイベント処理を実行する
 btn.addEventListener('click',function ()  {
     console.log('ボタンがクリックされました！');
-    textElement.textContent = 'ボタンがクリックされました！';
+    textElement.textContent = 'ボタンをクリックしました';
 });
+
+setTimeout(() => {
+    console.log('ボタンがクリックされました！（非同期処理）');
+  }, 2000);
