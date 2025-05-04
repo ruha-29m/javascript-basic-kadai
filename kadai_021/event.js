@@ -7,6 +7,7 @@ btn.addEventListener('click',function ()  {
     textElement.textContent = 'ボタンをクリックしました';
 });
 
+// setTimeout関数の書き方
 setTimeout(() => {
-    console.log('ボタンがクリックされました！（非同期処理）');
+    document.getElementById 
   }, 2000);
