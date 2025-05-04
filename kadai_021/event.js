@@ -9,5 +9,5 @@ btn.addEventListener('click',function ()  {
 
 // setTimeout関数の書き方
 setTimeout(() => {
-    document.getElementById 
+    textElement.textContent = 'ボタンをクリックしました'; 
   }, 2000);
