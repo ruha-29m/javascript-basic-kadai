@@ -3,11 +3,9 @@ const btn = document.getElementById('btn');
 const textElement = document.getElementById('text');
 // HTML要素がクリックされたときにイベント処理を実行する
 btn.addEventListener('click',function ()  {
-    console.log('ボタンがクリックされました！');
+    setTimeout(() => {
+    
     textElement.textContent = 'ボタンをクリックしました';
+}, 2000);
+console.log('ボタンがクリックされました！');
 });
-
-// setTimeout関数の書き方
-setTimeout(() => {
-    textElement.textContent = 'ボタンをクリックしました'; 
-  }, 2000);
